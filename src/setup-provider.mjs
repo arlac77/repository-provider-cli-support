@@ -19,6 +19,12 @@ async function createCache() {
 
 const httpsAgent = new Agent({ keepAlive: true });
 
+/**
+ * 
+ * @param {*} program 
+ * @param {Object} properties 
+ * @returns {Promise<Object>} with provider, options, and cache
+ */
 export async function initializeRepositoryProvider(program, properties) {
   const provider = await AggregationProvider.initialize(
     [],
@@ -44,6 +50,10 @@ export async function initializeRepositoryProvider(program, properties) {
   return { provider, options, cache };
 }
 
+/**
+ * Add extra cli options.
+ * @param {*} program 
+ */
 export function initializeCommandLine(program) {
   program
     .option("--no-cache", "cache requests")

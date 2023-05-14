@@ -5,6 +5,9 @@
   "keywords": [
     "repository-provider"
   ],
+  "exports": {
+    ".": "./src/setup-provider.mjs"
+  },
   "scripts": {
     "cover": "--overwrite-- c8 -x 'tests/**/*' --temp-directory build/tmp ava --timeout 2m tests/*-ava.mjs tests/*-ava-node.mjs && c8 report -r lcov -o build/coverage --temp-directory build/tmp",
     "test": "npm run test:ava",
@@ -18,6 +21,7 @@
     "c8": "^7.13.0",
     "commander": "^10.0.1",
     "documentation": "^14.0.1",
+    "github-repository-provider": "^8.0.15",
     "semantic-release": "^21.0.2"
   },
   "repository": {
@@ -30,5 +34,11 @@
   "homepage": "https://github.com/arlac77/repository-provider-cli-support#readme",
   "template": {
     "inheritFrom": "arlac77/template-esm-only"
+  },
+  "dependencies": {
+    "aggregation-repository-provider": "^5.3.26",
+    "etag-cache-leveldb": "^2.0.2",
+    "leveldown": "^6.1.1",
+    "levelup": "^5.1.1"
   }
 }
