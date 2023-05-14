@@ -1,6 +1,9 @@
 {
   "name": "repository-provider-cli-support",
   "version": "0.0.0-semantic-release",
+  "publishConfig": {
+    "access": "public"
+  },
   "exports": {
     ".": "./src/setup-provider.mjs"
   },
@@ -8,6 +11,13 @@
   "keywords": [
     "repository-provider"
   ],
+  "contributors": [
+    {
+      "name": "Markus Felten",
+      "email": "markus.felten@gmx.de"
+    }
+  ],
+  "license": "BSD-2-Clause",
   "scripts": {
     "test": "npm run test:ava",
     "test:ava": "ava --timeout 2m tests/*-ava.mjs tests/*-ava-node.mjs",
@@ -39,6 +49,9 @@
   },
   "homepage": "https://github.com/arlac77/repository-provider-cli-support#readme",
   "template": {
-    "inheritFrom": "arlac77/template-esm-only"
+    "inheritFrom": [
+      "arlac77/template-arlac77-github",
+      "arlac77/template-esm-only"
+    ]
   }
 }
