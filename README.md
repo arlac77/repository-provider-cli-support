@@ -2,9 +2,11 @@
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://opensource.org/licenses/BSD-3-Clause)
 [![bundlejs](https://deno.bundlejs.com/?q=repository-provider-cli-support\&badge=detailed)](https://bundlejs.com/?q=repository-provider-cli-support)
 [![downloads](http://img.shields.io/npm/dm/repository-provider-cli-support.svg?style=flat-square)](https://npmjs.org/package/repository-provider-cli-support)
-[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/arlac77/repository-provider-cli-support)
+[![GitHub Issues](https://img.shields.io/github/issues/arlac77/repository-provider-cli-support.svg?style=flat-square)](https://github.com/arlac77/repository-provider-cli-support/issues)
+[![Build Status](https://img.shields.io/endpoint.svg?url=https%3A%2F%2Factions-badge.atrox.dev%2Farlac77%2Frepository-provider-cli-support%2Fbadge\&style=flat)](https://actions-badge.atrox.dev/arlac77/repository-provider-cli-support/goto)
 [![Styled with prettier](https://img.shields.io/badge/styled_with-prettier-ff69b4.svg)](https://github.com/prettier/prettier)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Known Vulnerabilities](https://snyk.io/test/github/arlac77/repository-provider-cli-support/badge.svg)](https://snyk.io/test/github/arlac77/repository-provider-cli-support)
+[![Coverage Status](https://coveralls.io/repos/arlac77/repository-provider-cli-support/badge.svg)](https://coveralls.io/github/arlac77/repository-provider-cli-support)
 # repository-provider-cli-support
 helper functions for cli apps
