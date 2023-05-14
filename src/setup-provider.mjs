@@ -39,9 +39,7 @@ export async function initializeRepositoryProvider(program, properties) {
     provider._providers.forEach(p => (p.cache = cache));
   }
 
-  provider._providers.forEach(
-    p => (p.agent = url => httpsAgent )
-  );
+  provider._providers.forEach(p => (p.agent = url => httpsAgent));
 
   return { provider, options, cache };
 }
