@@ -8,5 +8,18 @@
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![Known Vulnerabilities](https://snyk.io/test/github/arlac77/repository-provider-cli-support/badge.svg)](https://snyk.io/test/github/arlac77/repository-provider-cli-support)
 [![Coverage Status](https://coveralls.io/repos/arlac77/repository-provider-cli-support/badge.svg)](https://coveralls.io/github/arlac77/repository-provider-cli-support)
+
 # repository-provider-cli-support
-helper functions for cli apps
+helper functions for repository-provider cli apps
+
+# install
+
+With [npm](http://npmjs.org) do:
+
+```shell
+npm install repository-provider-cli-support
+```
+
+# license
+
+BSD-2-Clause

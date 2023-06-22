@@ -7,7 +7,7 @@
   "exports": {
     ".": "./src/setup-provider.mjs"
   },
-  "description": "helper functions for cli apps",
+  "description": "helper functions for repository-provider cli apps",
   "keywords": [
     "repository-provider"
   ],
