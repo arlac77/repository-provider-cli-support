@@ -44,6 +44,9 @@
     "type": "git",
     "url": "https://github.com/arlac77/repository-provider-cli-support"
   },
+  "engines": {
+    "node": ">=16.20.1"
+  },
   "bugs": {
     "url": "https://github.com/arlac77/repository-provider-cli-support/issues"
   },
