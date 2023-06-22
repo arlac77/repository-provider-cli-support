@@ -38,16 +38,20 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          persist-credentials: false
       - uses: actions/setup-node@v3.6.0
         with:
           node-version: 18.16.1
           cache: npm
       - run: npm ci
-      - run: npx semantic-release
+      - name: Release
+        run: npx semantic-release
         env:
           CI: 'true'
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
-          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PKGBUILD_PUBLISH: ${{ secrets.PKGBUILD_PUBLISH }}
   finish:
     needs:
