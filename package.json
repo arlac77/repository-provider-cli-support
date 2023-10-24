@@ -37,7 +37,7 @@
     "c8": "^8.0.1",
     "commander": "^11.1.0",
     "documentation": "^14.0.2",
-    "github-repository-provider": "^8.0.25",
+    "github-repository-provider": "^8.0.26",
     "semantic-release": "^22.0.5"
   },
   "engines": {
