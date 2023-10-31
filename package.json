@@ -38,7 +38,7 @@
     "commander": "^11.1.0",
     "documentation": "^14.0.2",
     "github-repository-provider": "^8.0.26",
-    "semantic-release": "^22.0.5"
+    "semantic-release": "^22.0.6"
   },
   "engines": {
     "node": ">=16.20.2"
