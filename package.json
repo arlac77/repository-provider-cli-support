@@ -2,7 +2,8 @@
   "name": "repository-provider-cli-support",
   "version": "0.0.0-semantic-release",
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "provenance": true
   },
   "exports": {
     ".": "./src/setup-provider.mjs"
