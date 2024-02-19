@@ -34,6 +34,7 @@ export async function initializeRepositoryProvider(program, properties) {
 
   const options = program.opts();
 
+  // @ts-ignore
   provider.messageDestination = {
     ...console,
     trace: options.trace ? console.log : () => {}
