@@ -23,7 +23,7 @@ const httpsAgent = new Agent({ keepAlive: true });
  * 
  * @param {*} program 
  * @param {Object} properties 
- * @returns {Promise<Object>} with provider, options, and cache
+ * @returns {Promise<{provider: AggregationProvider, options: Object, cache: ETagCacheLevelDB|undefined}>}
  */
 export async function initializeRepositoryProvider(program, properties) {
   const provider = await AggregationProvider.initialize(
