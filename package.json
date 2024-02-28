@@ -40,7 +40,7 @@
     "levelup": "^5.1.1"
   },
   "devDependencies": {
-    "@types/node": "^20.11.20",
+    "@types/node": "^20.11.21",
     "ava": "^6.1.1",
     "c8": "^9.1.0",
     "commander": "^12.0.0",
