@@ -64,6 +64,7 @@
   "template": {
     "inheritFrom": [
       "arlac77/template-arlac77-github",
+      "arlac77/template-github-action",
       "arlac77/template-javascript-component",
       "arlac77/template-typescript"
     ]
