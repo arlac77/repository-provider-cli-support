@@ -26,7 +26,7 @@ const httpsAgent = new Agent({ keepAlive: true });
  * @returns {Promise<{provider: AggregationProvider, options: Object, cache: ETagCacheLevelDB|undefined}>}
  */
 export async function initializeRepositoryProvider(program, properties) {
-  const provider = await AggregationProvider.initialize(
+  const provider = await AggregationProvider.initializeWithProviders(
     [],
     properties,
     process.env
