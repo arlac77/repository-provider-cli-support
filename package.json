@@ -35,8 +35,8 @@
     "lint:typescript": "tsc --allowJs --checkJs --noEmit --resolveJsonModule -t esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs"
   },
   "dependencies": {
-    "aggregation-repository-provider": "^6.1.6",
-    "etag-cache-leveldb": "^2.1.1",
+    "aggregation-repository-provider": "^6.1.9",
+    "etag-cache-leveldb": "^2.1.2",
     "leveldown": "^6.1.1",
     "levelup": "^5.1.1"
   },
@@ -46,8 +46,13 @@
     "c8": "^9.1.0",
     "commander": "^12.1.0",
     "documentation": "^14.0.3",
+<<<<<<< HEAD
     "github-repository-provider": "^9.0.16",
     "semantic-release": "^23.1.1",
+=======
+    "github-repository-provider": "^9.0.15",
+    "semantic-release": "^24.0.0",
+>>>>>>> 5d8f4ea8f4eef28cc49e90a1180a29549cedbe06
     "typescript": "^5.4.5"
   },
   "engines": {
