@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "aggregation-repository-provider": "^7.0.3",
-    "etag-cache-leveldb": "^2.1.6",
+    "etag-cache-leveldb": "^2.1.7",
     "leveldown": "^6.1.1",
     "levelup": "^5.1.1"
   },
