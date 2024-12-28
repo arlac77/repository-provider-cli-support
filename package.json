@@ -8,8 +8,8 @@
   "types": "./types/setup-provider.d.mts",
   "exports": {
     ".": {
-      "default": "./src/setup-provider.mjs",
-      "types": "./types/setup-provider.d.mts"
+      "types": "./types/setup-provider.d.mts",
+      "default": "./src/setup-provider.mjs"
     }
   },
   "description": "helper functions for repository-provider cli apps",
