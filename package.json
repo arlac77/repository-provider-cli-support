@@ -47,7 +47,7 @@
     "commander": "^13.1.0",
     "documentation": "^14.0.3",
     "github-repository-provider": "^9.0.21",
-    "semantic-release": "^24.2.2",
+    "semantic-release": "^24.2.3",
     "typescript": "^5.7.3"
   },
   "engines": {
