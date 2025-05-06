@@ -35,8 +35,8 @@
     "lint:typescript": "tsc --allowJs --checkJs --noEmit --resolveJsonModule --target esnext -m esnext --module nodenext --moduleResolution nodenext ./src**/*.mjs"
   },
   "dependencies": {
-    "aggregation-repository-provider": "^7.0.7",
-    "etag-cache-leveldb": "^2.1.12",
+    "aggregation-repository-provider": "^7.0.8",
+    "etag-cache-leveldb": "^2.1.13",
     "leveldown": "^6.1.1",
     "levelup": "^5.1.1"
   },
