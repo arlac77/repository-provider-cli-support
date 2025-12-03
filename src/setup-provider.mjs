@@ -17,7 +17,7 @@ async function createCache() {
   return new ETagCacheLevelDB(db);
 }
 
-const httpsAgent = new Agent({ keepAlive: true });
+const httpsAgent = new Agent({ keepAlive: true, noDelay: true });
 
 /**
  *
@@ -43,10 +43,12 @@ export async function initializeRepositoryProvider(program, properties) {
   let cache;
   if (options.cache) {
     cache = await createCache();
-    provider._providers.forEach(p => (p.cache = cache));
   }
 
-  provider._providers.forEach(p => (p.agent = url => httpsAgent));
+  provider._providers.forEach(p => {
+    p.agent = url => httpsAgent;
+    p.cache = cache;
+  });
 
   return { provider, options, cache };
 }
@@ -63,7 +65,7 @@ export function initializeCommandLine(program) {
 
 /**
  * Retrieve repository url from a directory.
- * @param {string} dir 
+ * @param {string} dir
  * @returns {string?}
  */
 export async function repositoryUrl(dir) {
