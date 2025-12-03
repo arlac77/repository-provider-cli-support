@@ -66,7 +66,7 @@ export function initializeCommandLine(program) {
 /**
  * Retrieve repository url from a directory.
  * @param {string} dir
- * @returns {string?}
+ * @returns {Promise<string|undefined>}
  */
 export async function repositoryUrl(dir) {
   const cfg = await readFile(join(dir, ".git", "config"), "utf8");
