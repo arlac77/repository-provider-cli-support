@@ -47,7 +47,7 @@
     "commander": "^14.0.2",
     "documentation": "^14.0.3",
     "gitea-repository-provider": "^5.0.7",
-    "github-repository-provider": "^10.0.14",
+    "github-repository-provider": "^10.0.15",
     "semantic-release": "^25.0.2",
     "typescript": "^5.9.3"
   },
