@@ -44,7 +44,7 @@
     "@types/node": "^25.9.1",
     "ava": "^8.0.1",
     "c8": "^11.0.0",
-    "commander": "^14.0.3",
+    "commander": "^15.0.0",
     "documentation": "^14.0.3",
     "gitea-repository-provider": "^5.0.10",
     "github-repository-provider": "^10.0.32",
